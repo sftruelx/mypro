@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: my.myapp.util.DateConverterTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.059 sec - in my.myapp.util.DateConverterTest

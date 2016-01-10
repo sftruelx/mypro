@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: my.myapp.webapp.controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.304 sec <<< FAILURE! - in my.myapp.webapp.controller.UserControllerTest
+testGetUsers(my.myapp.webapp.controller.UserControllerTest)  Time elapsed: 3.053 sec  <<< FAILURE!
+java.lang.AssertionError: View name expected:<userList> but was:<userList2>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:60)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:89)
+	at org.springframework.test.web.servlet.result.ViewResultMatchers$2.match(ViewResultMatchers.java:66)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:152)
+	at my.myapp.webapp.controller.UserControllerTest.testGetUsers(UserControllerTest.java:48)
+
