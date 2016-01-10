@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: my.myapp.dao.RoleDaoTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.487 sec - in my.myapp.dao.RoleDaoTest
