@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import com.app1.dao.ClassifyDao;
@@ -38,6 +39,7 @@ public class ClassifyManagerImpl  extends GenericManagerImpl<Classify, Long> imp
 	    	return  dao.getLevel();
 	    }
 	    
+	    @Cacheable(value ="serviceCache")
 	    public List getParent(Long parent_id){
 	    	return  dao.getParent(parent_id);
 	    }

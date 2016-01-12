@@ -22,6 +22,6 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Larry/Downloads/jaudiotagger-2.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/067231/git/mypro/mypro/src/main/webapp/WEB-INF/lib/jaudiotagger-2.2.5.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
