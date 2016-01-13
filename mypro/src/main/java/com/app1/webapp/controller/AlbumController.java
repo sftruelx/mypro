@@ -74,7 +74,10 @@ public class AlbumController extends BaseFormController {
 						old.setImgPath(fileName);
 					}
 					old.setAlbumName(album.getAlbumName());
+<<<<<<< HEAD
 					old.setClassifyId(album.getClassifyId());
+=======
+>>>>>>> 071dd87d4cc1b0a9acfca1ca4b94d26a28f5a283
 					old.setAuthor(album.getAuthor());
 					old.setDescripe(album.getDescripe());
 					old.setPublishDate(album.getPublishDate());

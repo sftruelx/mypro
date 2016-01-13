@@ -4,7 +4,10 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+<<<<<<< HEAD
 import org.springframework.cache.annotation.Cacheable;
+=======
+>>>>>>> 071dd87d4cc1b0a9acfca1ca4b94d26a28f5a283
 import org.springframework.stereotype.Service;
 
 import com.app1.dao.ClassifyDao;
@@ -39,7 +42,10 @@ public class ClassifyManagerImpl  extends GenericManagerImpl<Classify, Long> imp
 	    	return  dao.getLevel();
 	    }
 	    
+<<<<<<< HEAD
 	    @Cacheable(value ="serviceCache")
+=======
+>>>>>>> 071dd87d4cc1b0a9acfca1ca4b94d26a28f5a283
 	    public List getParent(Long parent_id){
 	    	return  dao.getParent(parent_id);
 	    }

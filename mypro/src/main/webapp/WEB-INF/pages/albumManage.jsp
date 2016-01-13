@@ -256,6 +256,7 @@
 
 		}
 		};
+
 		var artist_url = "artistForm";
 		function newArtist() {
 			var row = $('#dgalbum').datagrid('getSelected');
@@ -266,6 +267,7 @@
 			$('#albumId').textbox('setValue', row.id);
 
 			url = 'artistForm';
+
 			}
 		}
 		function editArtist() {
